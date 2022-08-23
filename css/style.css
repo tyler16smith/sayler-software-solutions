@@ -46,6 +46,14 @@ VERSION:	v 0.0.1
   background: #d8d8d8;
 }
 
+.mt-30 {
+  margin-top: 30px;
+}
+
+.serif-text {
+  font-family: sans-serif
+}
+
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Poppins:300,400,500,600,700&display=swap");
 body {
@@ -80,7 +88,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -88,6 +96,16 @@ h1, h2, h3, h4, h5, h6 {
 h1, .h1 {
   font-size: 60px;
 }
+
+@media (min-width: 850px) {
+  .sayler-font-formatting {
+    margin-left: -120px;
+  }
+  .cover-width {
+    width: 40rem;
+  }
+}
+
 @media (max-width: 575px) {
   h1, .h1 {
     font-size: 40px;
