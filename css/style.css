@@ -21,6 +21,16 @@ VERSION:	v 0.0.1
   scroll-behavior: smooth;
 }
 
+.sayler-heading-size {
+  font-size: 7rem;
+}
+
+@media (max-width: 1000px) {
+  .sayler-heading-size {
+    font-size: 5rem;
+  }
+}
+
 .font-large {
   font-size: 25px;
 }
@@ -619,7 +629,6 @@ textarea.form-control {
   padding: 15px;
   border: 0;
   top: calc(100% - 2px);
-  left: -10px;
   border-radius: 0;
   background: #fff;
 }
